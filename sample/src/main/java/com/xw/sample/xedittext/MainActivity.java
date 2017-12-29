@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         Button button = (Button) findViewById(R.id.show_pattern_btn);
 
         customXEdit.setPattern(new int[]{4, 4, 4, 4});
-
+//        clearXEdit.setMaxmumFilter(100,0);
         clearXEdit.setOnXTextChangeListener(new XEditText.OnXTextChangeListener() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {

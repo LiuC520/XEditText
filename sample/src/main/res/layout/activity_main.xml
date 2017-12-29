@@ -19,11 +19,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="default, just likes EditText"
-            app:x_disableClear="true"/>
+            app:x_disableClear="false"/>
 
         <com.xw.repo.XEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
+            app:x_maxNum="1000"
+            app:x_numOfDecimal="3"
             android:hint="clear drawable"/>
 
         <com.xw.repo.XEditText
